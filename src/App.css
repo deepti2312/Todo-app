@@ -32,7 +32,50 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.Button {
+  ruby-position: inline;
+  margin-left: 20px;
+  top: 50%;
+  background-color: #0a0a23;
+  color: #fff;
+  border: 2px;
+  border-radius: 10px;
+  font-size: medium;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+}
+
+.Ul {
+  counter-reset: li; 
+  padding: 0;
+  margin-left: 20px;
+  list-style: lower-greek;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.Ul li {
+  position: relative;
+  display: block;
+  padding: 15px;
+  margin: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background: #d4d1d1;
+  color: #181818;
+  text-decoration-style: solid;
+  border-radius: .3em;
+  transition: .3s ease-out;
+}
+
+.Form {
+  background-color: #444;
+  padding: 20px;
+  color: #ffffff;
+  font-style: initial;
 }
